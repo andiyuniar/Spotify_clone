@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A556D2F27BDC0A80023DE2B /* ContentItemViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A556D2E27BDC0A80023DE2B /* ContentItemViewer.swift */; };
 		6ABD750D27BA8F8700AF0879 /* Spotify_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD750C27BA8F8700AF0879 /* Spotify_cloneApp.swift */; };
 		6ABD750F27BA8F8700AF0879 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD750E27BA8F8700AF0879 /* ContentView.swift */; };
 		6ABD751127BA8F8800AF0879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD751027BA8F8800AF0879 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A556D2E27BDC0A80023DE2B /* ContentItemViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentItemViewer.swift; sourceTree = "<group>"; };
 		6ABD750927BA8F8700AF0879 /* Spotify_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABD750C27BA8F8700AF0879 /* Spotify_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_cloneApp.swift; sourceTree = "<group>"; };
 		6ABD750E27BA8F8700AF0879 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A556D3027BDC0BD0023DE2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A556D2E27BDC0A80023DE2B /* ContentItemViewer.swift */,
+				6ABD751A27BA962400AF0879 /* HomePage.swift */,
+				6ABD751C27BA96FA00AF0879 /* SearchPage.swift */,
+				6ABD750E27BA8F8700AF0879 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6ABD750027BA8F8700AF0879 = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +68,8 @@
 		6ABD750B27BA8F8700AF0879 /* Spotify_clone */ = {
 			isa = PBXGroup;
 			children = (
-				6ABD751A27BA962400AF0879 /* HomePage.swift */,
-				6ABD751C27BA96FA00AF0879 /* SearchPage.swift */,
+				6A556D3027BDC0BD0023DE2B /* Views */,
 				6ABD750C27BA8F8700AF0879 /* Spotify_cloneApp.swift */,
-				6ABD750E27BA8F8700AF0879 /* ContentView.swift */,
 				6ABD751027BA8F8800AF0879 /* Assets.xcassets */,
 				6ABD751227BA8F8800AF0879 /* Preview Content */,
 			);
@@ -145,6 +156,7 @@
 			files = (
 				6ABD750F27BA8F8700AF0879 /* ContentView.swift in Sources */,
 				6ABD751B27BA962500AF0879 /* HomePage.swift in Sources */,
+				6A556D2F27BDC0A80023DE2B /* ContentItemViewer.swift in Sources */,
 				6ABD751D27BA96FA00AF0879 /* SearchPage.swift in Sources */,
 				6ABD750D27BA8F8700AF0879 /* Spotify_cloneApp.swift in Sources */,
 			);
