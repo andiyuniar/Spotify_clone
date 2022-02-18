@@ -17,16 +17,26 @@ struct ContentItemViewer: View {
                 Text("Subtitle")
                 Spacer()
             }
-            VStack {
-                Spacer()
-                    .frame(width: 50, height: 200)
-                    .background(Color.clear)
-                Spacer()
-                    .frame(width:200)
-                    .background(Color.blue)
+            ScrollView {
+                VStack(spacing:0) {
+                    HStack {
+                        Spacer()
+                            .frame (height: 200)
+                            .background(Color.red.opacity(0.3))
+                    }
+                    VStack {
+                        ForEach(0..<30){ indicator in
+                            HStack {
+                                Text("song").foregroundColor(.white)
+                                Spacer()
+                            }
+                        }
+                    }.background(Color.black)
+                }
+                
             }
         }
-     }
+    }
 }
 
 struct ContentItemViewer_Previews: PreviewProvider {
