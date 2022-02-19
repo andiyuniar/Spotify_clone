@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A556D2F27BDC0A80023DE2B /* ContentItemViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A556D2E27BDC0A80023DE2B /* ContentItemViewer.swift */; };
+		6ABB6BB827C076D200D94977 /* TrackCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB6BB727C076D200D94977 /* TrackCard.swift */; };
 		6ABD750D27BA8F8700AF0879 /* Spotify_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD750C27BA8F8700AF0879 /* Spotify_cloneApp.swift */; };
 		6ABD750F27BA8F8700AF0879 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABD750E27BA8F8700AF0879 /* ContentView.swift */; };
 		6ABD751127BA8F8800AF0879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABD751027BA8F8800AF0879 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		6A556D2E27BDC0A80023DE2B /* ContentItemViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentItemViewer.swift; sourceTree = "<group>"; };
+		6ABB6BB727C076D200D94977 /* TrackCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCard.swift; sourceTree = "<group>"; };
 		6ABD750927BA8F8700AF0879 /* Spotify_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABD750C27BA8F8700AF0879 /* Spotify_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spotify_cloneApp.swift; sourceTree = "<group>"; };
 		6ABD750E27BA8F8700AF0879 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				6A556D2E27BDC0A80023DE2B /* ContentItemViewer.swift */,
+				6ABB6BB727C076D200D94977 /* TrackCard.swift */,
 				6ABD751A27BA962400AF0879 /* HomePage.swift */,
 				6ABD751C27BA96FA00AF0879 /* SearchPage.swift */,
 				6ABD750E27BA8F8700AF0879 /* ContentView.swift */,
@@ -159,6 +162,7 @@
 				6A556D2F27BDC0A80023DE2B /* ContentItemViewer.swift in Sources */,
 				6ABD751D27BA96FA00AF0879 /* SearchPage.swift in Sources */,
 				6ABD750D27BA8F8700AF0879 /* Spotify_cloneApp.swift in Sources */,
+				6ABB6BB827C076D200D94977 /* TrackCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
